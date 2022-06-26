@@ -86,3 +86,24 @@ body {
   padding: 0.5rem calc(var(--img-gap) * 2 + var(--handle-size));
   align-items: center;
 }
+
+.title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.progress-bar {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.progress-item {
+  flex: 0 0 1.5rem;
+  min-width: 1.5rem;
+  height: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.progress-item.active {
+  background-color: rgba(255, 255, 255, 0.9);
+}
