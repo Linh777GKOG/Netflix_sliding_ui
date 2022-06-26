@@ -107,3 +107,20 @@ body {
 .progress-item.active {
   background-color: rgba(255, 255, 255, 0.9);
 }
+
+@media (max-width: 1000px) {
+  .slider {
+    --items-per-screen: 3;
+  }
+}
+
+@media (max-width: 500px) {
+  .slider {
+    --items-per-screen: 2;
+  }
+}
+
+body {
+  background-color: #333;
+  color: white;
+}
